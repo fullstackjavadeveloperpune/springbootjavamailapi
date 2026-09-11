@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: mailapi
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: jadhavkiran2011@gmail.com
+    password: mnaj prlc rczj pdne
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
